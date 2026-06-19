@@ -74,8 +74,6 @@ end.join("\n")
 puts <<~'OUT'
   \documentclass[12pt, a4paper]{article}
   \usepackage[margin=3cm]{geometry}
-  \usepackage{pgfplots}
-  \pgfplotsset{width=10cm,compat=1.9}
   \usepackage{setspace}
   \onehalfspacing % Sets document line spacing to 1.5
 
